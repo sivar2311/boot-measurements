@@ -1,7 +1,7 @@
 # Description
 Runtime measurements of a SinricPro sketch on an ESP32 (Firebeetle32 board).
 
-The sketch connects to the SinricPro server and sends a temperature event with random values for temperature and humidity. After sending, the connection is disconnected and the ESP32 goes into deep-sleep mode.
+The sketch connects to the SinricPro server and sends a temperature event with random values for temperature and humidity. After sending, the connection is disconnected and the ESP32 goes into deep-sleep mode. After a defined time, the ESP32 wakes up from deep-sleep and repeats this process.
 
 # Measurements
 | # | boot-type | SSL | D/S | WIFI-CACHE | boot-loader | flash-mode | flash speed | time |
